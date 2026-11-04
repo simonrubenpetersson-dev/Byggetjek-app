@@ -10,6 +10,6 @@ Denne side er kun filerne bag appen. Klik på linket ovenfor for at bruge den. P
 
 Webappen Byggetjek: byggeledelse og drift uden støj.
 
-Åbn appen: https://simonrubenpetersson-dev.github.io/byggetjek-app/
+Åbn appen: https://simonrubenpetersson-dev.github.io/Byggetjek-app/
 
 Dette repo indeholder kun den byggede app. Kildekoden ligger i et privat repo.
