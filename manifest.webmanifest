@@ -1,0 +1,12 @@
+{
+  "name": "Byggetjek",
+  "short_name": "Byggetjek",
+  "description": "Byggeledelse uden støj: mangler, tilsyn, KS, tidsplan og økonomi.",
+  "lang": "da",
+  "start_url": "./#i-dag",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4F4F1",
+  "theme_color": "#2F5D50",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
