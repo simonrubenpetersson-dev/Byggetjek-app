@@ -494,6 +494,7 @@ table.heat th.now { color: var(--accent); font-weight: 700; }
 .h2in { font-size: 22px; font-weight: 600; letter-spacing: -.02em; padding: 4px 6px; margin-left: -6px; }
 .fields3 { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 12px; }
 .field.inline { flex-direction: row; align-items: center; gap: 8px; }
+.field.inline .lbl { white-space: nowrap; }
 .field.inline select { width: auto; min-height: 40px; padding: 8px 10px; }
 .avatar { display: inline-grid; place-items: center; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font-weight: 600; letter-spacing: .02em; flex: none; font-family: var(--f-mono); }
 .who { display: inline-flex; align-items: center; gap: 10px; }
@@ -555,6 +556,7 @@ tr.grp td:first-child { padding-left: 8px; }
 tfoot td { border-top: 1px solid var(--ink); border-bottom: 0; font-weight: 600; padding-top: 12px; }
 .tcards { display: none; }
 .ftoggle { display: none; }
+.ucards { display: none; }
 .ubar { position: relative; display: flex; width: 120px; height: 8px; background: var(--bar); border-radius: 1px; overflow: visible; }
 .ubar i { display: block; height: 100%; }
 .ubar .inv { background: var(--barfill); }
@@ -591,7 +593,14 @@ table.budget .ubar { width: 90px; }
   .tcard .r1, .tcard .r3 { display: flex; align-items: center; gap: 8px; }
   .tcard .r2 { padding-left: 15px; }
   .tcard .r3 { padding-left: 15px; }
-  .field.inline { flex: 1 1 100%; }
+  .utable { display: none; }
+  .ucards { display: flex; flex-direction: column; border-top: 1px solid var(--ink); }
+  .ucard { padding: 14px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 10px; }
+  .ucard-main { display: flex; align-items: center; gap: 12px; width: 100%; }
+  .ucard-stats { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; font-size: 13px; padding-left: 52px; }
+  .teamhead { width: 100%; }
+  .teamhead .btn { flex: none; }
+  .field.inline { flex: 1 1 0; min-width: 0; }
   .field.inline select { flex: 1; }
 }
 
